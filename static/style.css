@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("img/camera.jpg") no-repeat center top;
+    background: url("../static/img/camera.jpg") no-repeat center top;
     background-size: cover;
 }
 body::before {
