@@ -1,4 +1,3 @@
-
 from flask import *
 app = Flask(__name__)
 
@@ -32,7 +31,5 @@ def login():
 app.secret_key = 'sample_secret'
 
 
-
 if __name__ == '__main__':
-
-    app.run()
+       app.run(host='127.0.0.1', debug=True, threaded=True)
